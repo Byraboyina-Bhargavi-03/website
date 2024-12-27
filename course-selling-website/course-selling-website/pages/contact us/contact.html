@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../../styles/universal.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../styles/navbar.css" />
+    <link rel="stylesheet" href="../../styles/footer.css" />
+    <link rel="stylesheet" href="../../styles/colors.css" />
+  </head>
+  <body class="dark">
+    <header>
+      <nav
+        style="
+          position: fixed;
+          top: 0;
+          width: 100%;
+          background-color: var(--primary-bg);
+        ">
+        <div class="nav-bar">
+          <li class="logo">
+            <a href="../../index.html">
+              <img
+                id="topLogo"
+                src="images\logoWhatsApp Image 2024-12-14 at 22.00.18_788dca5e.jpg"
+                alt="CoderClas Main Logo" />
+            </a>
+          </li>
+
+          <div style="display: flex">
+            <div class="wrapper">
+              <input type="checkbox" id="hide_checkbox" checked />
+              <label for="hide_checkbox" class="toggle">
+                <span class="toggle-button">
+                  <span class="crater crater-1"></span>
+                  <span class="crater crater-2"></span>
+                  <span class="crater crater-3"></span>
+                  <span class="crater crater-4"></span>
+                  <span class="crater crater-5"></span>
+                  <span class="crater crater-6"></span>
+                  <span class="crater crater-7"></span>
+                </span>
+                <span class="star star-1"></span>
+                <span class="star star-2"></span>
+                <span class="star star-3"></span>
+                <span class="star star-4"></span>
+                <span class="star star-5"></span>
+                <span class="star star-6"></span>
+                <span class="star star-7"></span>
+                <span class="star star-8"></span>
+              </label>
+            </div>
+
+            <input type="checkbox" id="check" />
+            <span class="menu font-sans">
+              <li>
+                <a class="text-white text-center" href="/index.html">Home</a>
+              </li>
+              <li><a class="text-white text-center" href="#">Contact Us</a></li>
+              <li>
+                <a
+                  class="text-white text-center"
+                  href="/pages/about us/about.html"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="../login/login.html" rel="noopener noreferrer">
+                <button class="btn-design text-bold">Login</button></a>
+              </li>
+              <label for="check" class="close-menu">
+                <i class="text-white fas fa-times"></i>
+              </label>
+            </span>
+          </div>
+
+          <label for="check" class="open-menu">
+            <i class="text-white fas fa-bars"></i>
+          </label>
+        </div>
+      </nav>
+    </header>
+
+    <div>
+      <div class="contact-section">
+        <div class="contact-bg">
+          <div class="image"></div>
+        </div>
+        <div class="contact-title">
+          <div>
+            <h1>Get in Touch</h1>
+            <p>The Ultimate Guide To Ace SDE Interviews.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="contact-form-section"
+      style="background-color: var(--primary-bg)">
+      <div class="contact-form">
+        <div class="form-title">
+          <p class="send-title">Send us a message</p>
+          <div>
+            <svg
+              style="color: var(--blog)"
+              stroke="currentColor"
+              fill="none"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+        </div>
+
+        <form class="form">
+          <div class="first-contact-section">
+            <div class="input-container">
+              <input type="text" id="name" />
+              <label for="name">Name</label>
+            </div>
+            <div class="input-container">
+              <input type="text" id="email" />
+              <label for="email">Email</label>
+            </div>
+            <div class="input-container">
+              <input type="number" id="phone" />
+              <label for="phone">Phone Number</label>
+            </div>
+            <div class="input-container">
+              <input type="text" id="subject" />
+              <label for="subject">Subject</label>
+            </div>
+          </div>
+
+          <div class="input-container">
+            <input type="text" id="message" />
+            <label for="message">Message</label>
+          </div>
+
+          <div class="submit-btn">
+            <a type="submit" href="#">
+              Submit
+              <svg
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg">
+                <desc></desc>
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+                <path
+                  d="M21 3l-6.5 18a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5"></path>
+              </svg>
+            </a>
+          </div>
+        </form>
+      </div>
+
+      <div class="social-contact">
+        <p>Contact Information</p>
+
+        <div class="mail-content">
+          <div class="mail-logo">
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M437.332 80H74.668C51.199 80 32 99.198 32 122.667v266.666C32 412.802 51.199 432 74.668 432h362.664C460.801 432 480 412.802 480 389.333V122.667C480 99.198 460.801 80 437.332 80zM432 170.667L256 288 80 170.667V128l176 117.333L432 128v42.667z"></path>
+            </svg>
+          </div>
+
+          <a href="mailto:coderclas@gmail.com"> hackculprit@gmail.com </a>
+        </div>
+
+
+    <footer>
+      <div class="super-container font-poppin">
+        <div class="components-outer-container">
+          <div class="footer-container">
+            <div class="first">
+              <div class="top">
+                <img id="footerLogo" src="images\logoWhatsApp Image 2024-12-14 at 22.00.18_788dca5e.jpg" alt="" />
+              </div>
+              
+           
+            
+    <script src="../script.js"></script>
+  </body>
+</html>
